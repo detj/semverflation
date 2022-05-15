@@ -118,10 +118,10 @@ Semverflation looks at how many years has passed between the latest version and 
 
 For such packages, semverflation would be calculated as `0`. Try running `npx semverflation axios` as an example.
 
-## Questions/Issues/Comments?
+## Issues or Questions?
 
-[Open an issue](https://github.com/detj/semverflation/issues/new)
+Feel free to ask a question or report an issue. [Open an issue](https://github.com/detj/semverflation/issues/new)
 
 ## License
 
-[MIT](LICENSE)
+Code and documentation in this project are released under the [MIT License](LICENSE).
