@@ -1,16 +1,31 @@
 name: Test
 on: [push]
 jobs:
-  test:
+  linux:
     runs-on: ubuntu-latest
     strategy:
       matrix:
         node: [14, 16]
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout project
+        uses: actions/checkout@v3
       - name: Set up node
         uses: actions/setup-node@v3
         with:
-          node-version: ${{ matrix. node }}
+          node-version: ${{ matrix.node }}
+      - run: npm ci
+      - run: npm test
+  windows:
+    runs-on: windows-latest
+    strategy:
+      matrix:
+        node: [14, 16]
+    steps:
+      - name: Checkout project
+        uses: actions/checkout@v3
+      - name: Set up node
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node }}
       - run: npm ci
       - run: npm test
