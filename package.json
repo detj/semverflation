@@ -7,7 +7,8 @@
   "bin": "./cli/cli.js",
   "scripts": {
     "test": "ava; tsd",
-    "check": "npx @skypack/package-check"
+    "check": "npx @skypack/package-check",
+    "release": "standard-version"
   },
   "types": "./index.d.ts",
   "keywords": [
@@ -18,7 +19,8 @@
   "files": [
     "index.js",
     "index.d.ts",
-    "lib/**/*.js"
+    "lib/**/*.js",
+    "cli/**/*.js"
   ],
   "engines": {
     "node": ">=14.16"
