@@ -110,9 +110,9 @@ Semverflation is not a metric that concludes anything in of itself. A project wi
 
 The scope of this utility is only limited to npm packages that are maintained following semver. Applications like browsers are out of scope and you would have to calculate semverflation of those manually using the formula.
 
-### Q. I get an error `not enough major versions to calculate semverfaltion`. Why?
+### Q. Why do I get `not enough major versions to calculate semverfaltion` error?
 
-Semverflation finds out how many years has passed between the latest version and v1.0.0. If number of years elapsed is less than 1, it would bail out with the above error.
+Semverflation looks at how many years has passed between the latest version and v1.0.0. If number of years elapsed is less than 1, it would bail out with the above error.
 
 ### Q. What about packages that are yet to reach 1.0.0?
 
