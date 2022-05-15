@@ -1,6 +1,6 @@
-[![Test](https://github.com/detj/semverflation/actions/workflows/test.yml/badge.svg)](https://github.com/detj/semverflation/actions/workflows/test.yml)
-
 > Semverflation is a software metric to track how frequently semver major of a package is bumped throughout the lifetime of the package's releases. Read the [blog post](https://www.zachleat.com/web/semverflation/).
+
+[![Test](https://github.com/detj/semverflation/actions/workflows/test.yml/badge.svg)](https://github.com/detj/semverflation/actions/workflows/test.yml)
 
 This package is an implementation to calculate semverflation in modern JavaScript environments. It only concerns itself with npm packages that follow semver. It can run in your terminal. Or you can consume it as a library inside a JavaScript environment like a webpage or nodejs.
 
