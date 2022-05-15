@@ -1,6 +1,6 @@
 {
   "name": "semverflation",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Calculate frequency of semver major bumps over time",
   "exports": "./index.js",
   "type": "module",
@@ -33,6 +33,7 @@
     "@skypack/package-check": "^0.2.2",
     "ava": "^4.2.0",
     "eslint": "^8.15.0",
+    "standard-version": "^9.5.0",
     "tsd": "^0.20.0"
   },
   "dependencies": {
