@@ -6,8 +6,10 @@
   "type": "module",
   "bin": "./cli/cli.js",
   "scripts": {
-    "test": "ava; tsd",
-    "check": "npx @skypack/package-check",
+    "test:types": "tsd",
+    "test:unit": "ava",
+    "test:pkg": "npx @skypack/package-check",
+    "test": "npm run test:unit && npm run test:types && npm run test:pkg",
     "release": "standard-version"
   },
   "types": "./index.d.ts",
