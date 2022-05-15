@@ -1,0 +1,44 @@
+{
+  "name": "semverflation",
+  "version": "1.0.0",
+  "description": "Calculate frequency of semver major bumps over time",
+  "exports": "./index.js",
+  "type": "module",
+  "bin": "./cli/cli.js",
+  "scripts": {
+    "test": "ava; tsd",
+    "check": "npx @skypack/package-check"
+  },
+  "types": "./index.d.ts",
+  "keywords": [
+    "semver",
+    "cli",
+    "browser"
+  ],
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "lib/**/*.js"
+  ],
+  "engines": {
+    "node": ">=14.16"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/detj/semverflation.git"
+  },
+  "author": "Debjeet Biswas <debjeet12@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@skypack/package-check": "^0.2.2",
+    "ava": "^4.2.0",
+    "eslint": "^8.15.0",
+    "tsd": "^0.20.0"
+  },
+  "dependencies": {
+    "luxon": "^2.4.0",
+    "meow": "^10.1.2",
+    "node-fetch": "^3.2.4",
+    "semver": "^7.3.7"
+  }
+}
