@@ -10,6 +10,7 @@ const data = JSON.parse(
 
 test("calculates semverflation", (t) => {
   t.is(semverflation(data.react), 29.742389879279973);
+  t.is(semverflation(data.lodash), 5.35104721256331);
 });
 
 test("rounds up to decimal places", (t) => {
