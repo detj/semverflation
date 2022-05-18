@@ -74,6 +74,8 @@ npx semverflation react
 
 **Globally**
 
+Assuming, you have semverflation globally installed.
+
 ```sh
 semverflation react
 ```
