@@ -2,7 +2,7 @@
 
 [![Test](https://github.com/detj/semverflation/actions/workflows/test.yml/badge.svg)](https://github.com/detj/semverflation/actions/workflows/test.yml)
 
-This package is an implementation to calculate semverflation in modern JavaScript environments. It only concerns itself with npm packages that follow semver. It can run in your terminal. Or you can consume it as a library inside a JavaScript environment like a webpage or nodejs.
+This package is an implementation to calculate semverflation in modern JavaScript runtime environments. It only concerns itself with npm packages that follow semver. It can run in your terminal. Or you can consume it as a library inside a JavaScript runtime environment like a webpage or nodejs.
 
 [Few questions that may come to your mind.](#questions)
 
