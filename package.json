@@ -9,8 +9,7 @@
     "test:types": "tsd",
     "test:unit": "ava",
     "test:pkg": "npx @skypack/package-check",
-    "test": "npm run test:unit && npm run test:types && npm run test:pkg",
-    "release": "standard-version"
+    "test": "npm run test:unit && npm run test:types && npm run test:pkg"
   },
   "types": "./index.d.ts",
   "keywords": [
@@ -37,7 +36,6 @@
     "@skypack/package-check": "^0.2.2",
     "ava": "^4.2.0",
     "eslint": "^8.15.0",
-    "standard-version": "^9.5.0",
     "tsd": "^0.20.0"
   },
   "dependencies": {
