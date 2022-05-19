@@ -1,6 +1,6 @@
 {
   "name": "semverflation",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Calculate frequency of semver major bumps over time",
   "exports": "./index.js",
   "type": "module",

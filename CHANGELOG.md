@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.5](https://github.com/detj/semverflation/compare/v1.0.4...v1.0.5) (2022-05-19)
+
+
+### Bug Fixes
+
+* default export ([2d3ed65](https://github.com/detj/semverflation/commit/2d3ed6514a1ed70258115247b73564b6e0b88de3))
+* remove dead code ([7d10066](https://github.com/detj/semverflation/commit/7d100668a8fe4d92091cb8a12bfd7509c6f1e9f7))
+
 ### [1.0.4](https://github.com/detj/semverflation/compare/v1.0.3...v1.0.4) (2022-05-18)
 
 
