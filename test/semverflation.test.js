@@ -1,5 +1,5 @@
 import test from "ava";
-import semverflation from "../lib/semverflation.js";
+import semverflation from "../index.js";
 import { readFile } from "node:fs/promises";
 
 const data = JSON.parse(

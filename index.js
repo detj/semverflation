@@ -1,1 +1,1 @@
-import "./lib/semverflation.js";
+export { default } from "./lib/semverflation.js";
