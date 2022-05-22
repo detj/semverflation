@@ -6,6 +6,12 @@ This package is an implementation to calculate semverflation in modern JavaScrip
 
 [Few questions that may come to your mind.](#questions)
 
+## Working Demo
+
+[Try it live](https://detj.github.io/csb-uvhp4k/?pkg=react)
+
+You may also checkout the [Codesandbox](https://codesandbox.io/s/semverflation-uvhp4k) of the above deployed version.
+
 ## Installation
 
 **Using package managers**
